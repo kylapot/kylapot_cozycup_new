@@ -129,3 +129,50 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/* Add these styles to your existing CSS or in an external stylesheet */
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    grid-column: span 2; /* span two columns */
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    grid-column: span 1; /* span one column */
+}
+
+/* Add more styles as needed */
+
+.meu {
+    text-align: center;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    grid-column: span 1; /* span one column */
+    position: relative; /* Position the image relative to the menu item */
+}
+
+.menu-item img {
+    max-width: 100%; /* Ensure the image does not exceed the width of its container */
+    border-radius: 4px; /* Add border radius to the image if desired */
+    margin-bottom: 10px; /* Add spacing between image and text */
+}
