@@ -5,8 +5,12 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
+    background-image: url('img/cafeImg.jpg'); /* Replace 'your-image.jpg' with the actual file path or URL of your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fde353; /* Fallback color in case the image is not available or doesn't cover the entire background */
     font-family: cursive, handwriting;
-    background-color: #fde353;
     color: #381a09;
 }
 
@@ -34,17 +38,19 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    padding-left: 100px;
 }
 
 nav a {
     text-decoration: none;
-    color: #4c3c32;
+    color: white;
     font-weight: bold;
     transition: color 0.3s;
+
 }
 
 nav a:hover {
-    color: #7e685b;
+    color: #e7dca9;
 }
 
 .hero {
@@ -128,4 +134,178 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+
+/* Add these styles to your existing CSS or in an external stylesheet */
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    grid-column: span 2; /* span two columns */
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    grid-column: span 1; /* span one column */
+}
+
+/* Add more styles as needed */
+
+.meu {
+    text-align: center;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    grid-column: span 1; /* span one column */
+    position: relative; /* Position the image relative to the menu item */
+}
+
+.menu-item img {
+    max-width: 100%; /* Ensure the image does not exceed the width of its container */
+    border-radius: 4px; /* Add border radius to the image if desired */
+    margin-bottom: 10px; /* Add spacing between image and text */
+}
+
+.pDown {
+    padding: 30px 0;
+}
+
+.picture {
+    background-color: #eee;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+.profile1, .profile2 {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    max-width: 100%; /* Ensure images don't exceed their container */
+    margin: 80px; /* Adjust spacing between images */
+}
+
+.cen1 {
+    text-align: left;
+}
+
+.cen2 {
+    text-align: right;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.feedback-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.feedback-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.feedback-form form {
+    display: grid;
+    gap: 20px;
+}
+
+.feedback-form label {
+    font-weight: bold;
+}
+
+.feedback-form textarea,
+.feedback-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedback-form button {
+    background-color: #4c3c32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #7e685b;
+}
+
+.location-info {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fde353;
+    color: #381a09;
+}
+
+.location-info h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.location-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.location-info p:last-child {
+    margin-bottom: 0;
+}
+
+.location {
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    margin: 10px 0;
 }
