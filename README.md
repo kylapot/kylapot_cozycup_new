@@ -30,6 +30,7 @@ This is the about us where can you find the creator.
 
 This where can you find our contact and where can you feedback.
 
+<<<<<<< HEAD
 #### About the Authors
 ___
 
@@ -67,3 +68,7 @@ ___
 
 
 
+=======
+#### About the Authirs
+___
+>>>>>>> 6582cab2a3eaa631f829e0ca10fa20e82ec84ebf
