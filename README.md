@@ -46,23 +46,31 @@ ___
      width="150" 
      style="border-radius: 50%;">
 
+**Name: TRACER BENCH D. BAIDDIN**
+
+**Email: 201980350@psu.palawan.edu.ph**
+
+
+[<img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Facebook.png?raw=true" width="60" style="border-radius:50%;" alt="fb icon">](https://web.facebook.com/profile.php?id=100012062110731)
+
+[<img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Github_black.png?raw=true" width="60" style="border-radius:50%;" alt="gh icon">](https://github.com/baiddin2001)
+
+
 <img src="https://github.com/kylapot/kylapot_cozycup_new/blob/main/img/profile2.jpg?raw=true" 
      alt="GitHub Image" 
      width="150" 
      style="border-radius: 50%;">
-
-**Name: TRACER BENCH D. BAIDDIN**
-
-**Email: 201980350@psu.palawan.edu.ph**
 
 **KYLA MAE G. PAGKALIWAGAN**
 
 **Email: 202080093@psu.palawan.edu.ph**
 
 
+[<img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/Facebook.png?raw=true" width="60" style="border-radius:50%;" alt="fb icon">](https://web.facebook.com/kylamaegp)
+
+[<img src="https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Github_black.png?raw=true" width="60" style="border-radius:50%;" alt="gh icon">](https://github.com/kylapot)
+
+
 
 </body>
 </html>
-
-#### About the Authirs
-___
