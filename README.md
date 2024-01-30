@@ -30,7 +30,6 @@ This is the about us where can you find the creator.
 
 This where can you find our contact and where can you feedback.
 
-<<<<<<< HEAD
 #### About the Authors
 ___
 
@@ -39,7 +38,6 @@ ___
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Image Example</title>
 </head>
 <body>
 
@@ -66,9 +64,5 @@ ___
 </body>
 </html>
 
-
-
-=======
 #### About the Authirs
 ___
->>>>>>> 6582cab2a3eaa631f829e0ca10fa20e82ec84ebf
